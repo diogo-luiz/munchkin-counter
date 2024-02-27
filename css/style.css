@@ -1,5 +1,14 @@
 body {
-    background-color: bisque;
+    background-image: url("../static/stone_wall.png");
+    background-size:cover ;
+}
+
+.divCounter {
+    padding: 70% 100px;
+    background-color: #8A8888;
+    border-radius: 30px;
+    text-align: center;
+    opacity: 0.8;
 }
 
 #countLabel {
