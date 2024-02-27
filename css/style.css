@@ -5,14 +5,23 @@ body {
 
 .divCounter {
     padding: 70% 100px;
-    background-color: #8A8888;
-    border-radius: 30px;
+    background-color: #E0C387;
+    border-radius: 25px;
     text-align: center;
-    opacity: 0.8;
+    opacity: 0.9;
+    font-family: "Macondo", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
 
 #countLabel {
     display: block;
     text-align: center;
     font-size: 50px;
+}
+
+button {
+    font-family: "Macondo", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
