@@ -3,25 +3,44 @@ body {
     background-size:cover ;
 }
 
-.divCounter {
-    padding: 70% 100px;
+.levelCounter {
+    padding: 70% 70px;
+    text-align: center;
     background-color: #E0C387;
     border-radius: 25px;
-    text-align: center;
     opacity: 0.9;
     font-family: "Macondo", cursive;
     font-weight: 400;
     font-style: normal;
 }
 
+.textCounter {
+    margin: ;
+}
+
+#reset {
+    font-size: 14px;
+}
+#decrease {
+    font-size: 16px;
+}
+#increase {
+    font-size: 16px;
+}
+
 #countLabel {
     display: block;
     text-align: center;
-    font-size: 50px;
+    font-size: 18px;
 }
 
 button {
     font-family: "Macondo", cursive;
     font-weight: 400;
     font-style: normal;
+    font-size: 16px;
+}
+
+p {
+    font-size: 20px;
 }
