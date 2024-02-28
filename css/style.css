@@ -3,19 +3,67 @@ body {
     background-size:cover ;
 }
 
-.levelCounter {
-    padding: 70% 70px;
-    text-align: center;
-    background-color: #E0C387;
-    border-radius: 25px;
-    opacity: 0.9;
-    font-family: "Macondo", cursive;
-    font-weight: 400;
-    font-style: normal;
+body, ul, li, p {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: arial;
 }
 
-.textCounter {
-    margin: ;
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.header {
+    background-color: #1d1e20;
+    display:flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    margin-left: 10px;
+}
+
+.menu li a {
+    display: block;
+    padding: 10px;
+    background-color: rgb(194, 73, 51);
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+    
+}
+
+/* display: flex;
+padding: 70% 70px;
+text-align: center;
+background-color: #E0C387;
+border-radius: 25px;
+opacity: 0.9;
+font-family: "Macondo", cursive;
+font-weight: 400;
+font-style: normal;
+flex-wrap: wrap; */
+
+.levelBox {
+
+}
+
+.itemBox {
+
 }
 
 #reset {
