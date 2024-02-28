@@ -40,11 +40,16 @@ a {
 }
 
 .box {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     text-align: center;
-    
+    margin: 0 auto;
+    max-width: 300px;
+    grid-gap: 40px;
+}
+
+.box {
+    margin-top: 50px;
 }
 
 /* display: flex;
