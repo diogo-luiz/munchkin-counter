@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css2?family=Macondo&display=swap);
 body {
     background-image: url("../static/stone_wall.png");
     background-size:cover ;
@@ -84,5 +85,4 @@ a {
 .btn-roll-dice {
 	position: absolute;
 	margin: -50% 45%;
-
 }
