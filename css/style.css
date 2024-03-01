@@ -5,6 +5,7 @@ body {
     background-size: 104%;
     font-family: "Macondo", cursive;
     font-style: normal;
+
 }
 
 body, ul, li {
@@ -49,6 +50,9 @@ a {
     padding-bottom: 300px;
     background-color: white;
     opacity: .6;
+    max-width: 500px;
+    max-height: 800px;
+    margin: 0 auto;
 }
 
 .box {
@@ -61,6 +65,7 @@ a {
     grid-gap: 40px;
     margin-top: 45px;
     font-size: 35px;
+
 }
 
 label {
