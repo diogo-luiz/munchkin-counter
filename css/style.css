@@ -47,25 +47,25 @@ a {
 }
 
 .section {
-    margin: -20px 20px;
     border-radius: 25px;
-    padding-bottom: 300px;
+    padding-bottom: 700px;
     background-color: white;
     opacity: .6;
     max-width: 500px;
     max-height: 800px;
     margin: 0 auto;
+    margin-top: 45px;
 }
 
 .box {
-    padding-top: 30px;
+    position: relative;
     display: grid;
     grid-template-columns: 1fr 1fr;
     text-align: center;
-    margin: 0 14%;
+    margin-top: -120%;
+    margin-left: 14%;
     max-width: 400px;
     grid-gap: 40px;
-    margin-top: 45px;
     font-size: 35px;
 
 }
